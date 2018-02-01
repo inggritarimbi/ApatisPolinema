@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    tools:context="apatis.com.apatispolinema.HomeAdmin">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="SELAMAT DATANG ADMIN"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnPasien"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/btnkecil"
+        android:fontFamily="sans-serif-condensed"
+        android:text="DAFTAR PASIEN"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnkecil"
+        android:fontFamily="sans-serif-condensed"
+        android:text="PASIEN SKIP"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnPasien"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnRekap"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnkecil"
+        android:fontFamily="sans-serif-condensed"
+        android:text="REKAP PASIEN"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnSkip"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnkecil"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnRekap"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

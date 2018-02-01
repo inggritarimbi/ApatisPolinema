@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    tools:context="apatis.com.apatispolinema.PendaftaranActivity">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="PENDAFTARAN"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/nama_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:fontFamily="monospace"
+        android:hint="Nama Pasien"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/head"
+        android:layout_alignLeft="@+id/alamat"
+        android:layout_alignStart="@+id/alamat"
+        android:layout_alignRight="@+id/alamat"
+        android:layout_alignEnd="@+id/alamat" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:fontFamily="monospace"
+        android:hint="Alamat"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/nama_pasien"
+        android:layout_alignLeft="@+id/pekerjaan"
+        android:layout_alignStart="@+id/pekerjaan"
+        android:layout_alignRight="@+id/poli"
+        android:layout_alignEnd="@+id/poli" />
+
+    <EditText
+        android:id="@+id/pekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:hint="Pekerjaan"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/alamat"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@+id/umur"
+        android:layout_alignStart="@+id/umur"
+        android:layout_alignRight="@+id/poli"
+        android:layout_alignEnd="@+id/poli" />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="monospace"
+        android:hint="Umur"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/pekerjaan"
+        android:layout_alignLeft="@+id/poli"
+        android:layout_alignStart="@+id/poli"
+        android:layout_alignRight="@+id/poli"
+        android:layout_alignEnd="@+id/poli" />
+
+    <Spinner
+        android:id="@+id/poli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/umur"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/poli" />
+
+    <Button
+        android:id="@+id/btnPendaftaran"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/btnkecil"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Daftar"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="47dp" />
+
+</RelativeLayout>

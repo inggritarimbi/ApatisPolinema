@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420115207617",
+    "firebase_url": "https://apatis-v1.firebaseio.com",
+    "project_id": "apatis-v1",
+    "storage_bucket": "apatis-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420115207617:android:624d7fa6f78c4355",
+        "android_client_info": {
+          "package_name": "apatis.com.apatispolinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420115207617-c3dgrmi1jnqbcs7f95i5hsub9qruvhtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apatis.com.apatispolinema",
+            "certificate_hash": "4e574321aba9f0c5faaf28b277cb203064ca65a7"
+          }
+        },
+        {
+          "client_id": "420115207617-v63e52pj2ck07lfr3jdq2pcnq4na0pjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-_KYhp9kJqA1VJ3kwMbYxgbAqW4sVzbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420115207617-v63e52pj2ck07lfr3jdq2pcnq4na0pjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

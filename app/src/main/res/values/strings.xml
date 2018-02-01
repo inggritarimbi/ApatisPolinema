@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Apatis Polinema</string>
+
+    <array name="poli">
+        <item>Poli Anak</item>
+        <item>Poli Umum</item>
+        <item>Poli Gigi</item>
+        <item>Poli Penyakit Dalam</item>
+        <item>Poli THT</item>
+    </array>
+</resources>

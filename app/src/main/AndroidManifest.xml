@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apatis.com.apatispolinema">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PendaftaranActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeAdmin" />
+        <!-- <activity android:name=".SplashActivity"></activity> -->
+        <activity android:name=".LihatAntrianActivity" />
+        <activity android:name=".AntrianActivity" />
+        <activity android:name=".DaftarPasienActivity" />
+        <activity android:name=".DetailPasienActivity" />
+        <activity android:name=".SkipActivity" />
+        <activity android:name=".DetailSkipActivity" />
+        <activity android:name=".RekapActivity" />
+        <activity android:name=".SkipPasienActivity" />
+        <activity android:name=".DetailRekapActivity" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".RekapPasienActivity"></activity>
+    </application>
+
+</manifest>

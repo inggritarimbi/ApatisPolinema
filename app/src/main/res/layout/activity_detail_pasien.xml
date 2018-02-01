@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    tools:context="apatis.com.apatispolinema.DetailPasienActivity">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="DETAIL PASIEN"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:text="Nama Pasien: "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/txtNamaPasien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/infoNama"
+        android:text="Nama Pasien"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/infoAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoNama"
+        android:layout_marginTop="20dp"
+        android:text="Alamat          : "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNamaPasien"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/infoAlamat"
+        android:text="Alamat"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/infoPekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoAlamat"
+        android:layout_marginTop="20dp"
+        android:text="Pekerjaan     : "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/txtPekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAlamat"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/infoAlamat"
+        android:text="Pekerjaan"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/infoUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoPekerjaan"
+        android:layout_marginTop="20dp"
+        android:text="Umur             : "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/txtUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPekerjaan"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/infoPekerjaan"
+        android:text="Umur"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/infoPoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoUmur"
+        android:layout_marginTop="20dp"
+        android:text="Poli                : "
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/txtPoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUmur"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/infoUmur"
+        android:text="Poli"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="MASUK"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="85dp"/>
+
+    <Button
+        android:id="@+id/btnSkip"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="SKIP"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/btnMasuk"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

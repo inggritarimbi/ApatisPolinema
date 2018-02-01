@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="@drawable/bg"
+    >
+
+
+
+    <TextView
+        android:id="@+id/txtNomorAntrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="1"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/txtNomorAntrian"
+        android:fontFamily="monospace"
+        android:text="Nama Pasien"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="monospace"
+        android:text="Jenis Poli"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
